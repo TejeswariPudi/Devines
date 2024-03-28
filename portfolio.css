@@ -1,0 +1,99 @@
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    border: 0;
+    z-index: 9999;
+    letter-spacing: 4px;
+
+}
+.logo {
+    display: block;
+    height: auto;
+    width: 52px;
+    padding-top: 5px;
+    margin-right: 15px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px; /* firefox bug fix */
+  width: auto;
+}
+.navbar .nav > li > a {
+  line-height: 50px;
+}
+
+.navbar-header h1 {
+    letter-spacing: 1px;
+    color: black !important;
+    font-family: 'Lobster Two', cursive;
+}
+
+.navbar li a, .navbar {
+    color: black !important;
+    font-size: 20px;
+    transition: all 0.6s 0s;
+}
+
+.navbar-toggle {
+    background-color: transparent !important;
+    border: 0;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: rgb(56, 44, 121) !important;
+}
+  /* CSS for arranging images and URLs side by side */
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image-container a {
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.image-container img {
+    width: 200px; /* Adjust image width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-container p {
+    margin-top: 10px;
+}
+
+
+.center-heading {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+ /* Custom CSS styles */
+  h2 {
+    color: blue;
+}
+.upper-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .restaurant {
+    margin-bottom: 20px; /* Adjust spacing between images */
+  }
+  
